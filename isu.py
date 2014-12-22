@@ -61,7 +61,7 @@ class Speed():
   def __str__(self):
     return "{0} m/s".format(self.meters_per_second)
 
-SpeedOfLight = Speed(meters_per_second = 3.0e8)
+SpeedOfLight = Speed(meters_per_second = 2.998e8)
 
     
 class Acceleration():
