@@ -8,6 +8,12 @@ class Sun():
   radius = Radius(meters = 6.955e8)
   mass = Mass(kilogrammes = 1.988435e30)
   
+
+class Orbit():
+  def __init__(self, a, e=1.0):
+    self.semimajor_axis = a
+    self.eccentricity = e
+
   
 class Earth():
   radius = Radius(meters = 6.3674447e6)
@@ -15,7 +21,7 @@ class Earth():
   polar_radius = Radius(6.3567523142e6)
   year = Time(365.25 * 24 * 60 * 60)
   mass = Mass(kilogrammes = 6e24)
-  semimajor_axis = Distance(meters = 1.496e11)
+  orbit =  Orbit(a = Distance(meters = 1.496e11))
   #
   initial_fraction_Uranium_238 = 6e-8
 
