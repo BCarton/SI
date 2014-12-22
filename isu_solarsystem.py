@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-from mks import Radius, Mass, Time, Speed, Distance
+from isu import Radius, Mass, Time, Speed, Distance
 
 
 class Sun():

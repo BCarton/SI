@@ -3,7 +3,7 @@
 
 import math
 
-from mks import Density
+from isu import Density
 
 
 class Iron():

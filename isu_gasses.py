@@ -3,7 +3,7 @@
 
 import math
 
-from mks import Velocity, Temperature
+from isu import Velocity, Temperature
 
 
 class MolecularMass():
