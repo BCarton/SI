@@ -68,7 +68,7 @@ class EarthYears(Time):
 
 class AstronomicalUnits(Distance):
   def __init__(self, astronomical_units):
-    Distance.__init__(self, meters = astronomical_units * Earth.semimajor_axis.meters)
+    Distance.__init__(self, meters = astronomical_units * 1.496e11)
     self.astronomical_units = float(astronomical_units)
   #
   def __str__(self):
