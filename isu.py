@@ -5,11 +5,11 @@ import math
 
 
 class Mass():
-  def __init__(self, kilogrammes):
-    self.kilogrammes = float(kilogrammes)
+  def __init__(self, kilograms):
+    self.kilograms = float(kilograms)
   #
   def __str__(self):
-    return "{0} kg".format(self.kilogrammes)
+    return "{0} kg".format(self.kilograms)
 
 
 class Energy():
@@ -145,11 +145,11 @@ class Temperature():
 
 class Density():
   symbol = 'ρ'
-  def __init__(self, kilogrammes_per_meter3):
-    self.kilogrammes_per_meter3 = float(kilogrammes_per_meter3)
+  def __init__(self, kilograms_per_meter3):
+    self.kilograms_per_meter3 = float(kilograms_per_meter3)
   #
   def __str__(self):
-    return "{0} kg/m³".format(self.kilogrammes_per_meter3)
+    return "{0} kg/m³".format(self.kilograms_per_meter3)
   
   # Static constructor methods...
   
