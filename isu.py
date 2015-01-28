@@ -37,6 +37,11 @@ class Time():
   def __str__(self):
     return "{0} s".format(self.seconds)
 
+  @staticmethod
+  def days(days):
+    s = days * 24 * 60 * 60
+    return Time(s)
+
 
 class Radius():
   def __init__(self, meters):
@@ -60,6 +65,11 @@ class Speed():
   #
   def __str__(self):
     return "{0} m/s".format(self.meters_per_second)
+
+  @staticmethod
+  def kilometers_per_hour(kmph):
+    mps = kmph * 1e3 / (60 * 60)
+    return Speed(mps)
 
 SpeedOfLight = Speed(meters_per_second = 2.998e8)
 
