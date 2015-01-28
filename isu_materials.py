@@ -7,19 +7,19 @@ from isu import Density
 
 
 class Iron():
-  density = Density(kilogrammes_per_meter3 = 7874)
+  density = Density(kilograms_per_meter3 = 7874)
 
 
 class Water():
-  density = Density(kilogrammes_per_meter3 = 1000)
+  density = Density(kilograms_per_meter3 = 1000)
 
 
 class WaterIce():
-  density = Density(kilogrammes_per_meter3 = 900)
+  density = Density(kilograms_per_meter3 = 900)
 
 
 class Rock():
-  density = Density(kilogrammes_per_meter3 = 3000)
+  density = Density(kilograms_per_meter3 = 3000)
 
 
 class Uranium_238():
