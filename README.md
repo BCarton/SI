@@ -1,5 +1,7 @@
-SI: le Système International
+SI
 ==
+le Système International
+--
 
 Python classes to represent the International System of Units (ISU) / le Système International d'Unités, the system formerly known as MKS (meters, kilograms, seconds)
 
