@@ -1,4 +1,3 @@
-#!/usr/bin/python
 # -*- coding: utf-8 -*-
 
 from isu import Radius, Mass, Time, Speed, Distance
