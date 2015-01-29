@@ -17,6 +17,7 @@ class IdealGas():
   
   """
   def get_meankineticenergy(temperature):
+    # See: http://en.wikipedia.org/wiki/Kinetic_theory#Temperature_and_kinetic_energy
     return None
   """
   
