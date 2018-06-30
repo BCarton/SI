@@ -4,11 +4,11 @@ import math
 
 
 class Mass():
-  def __init__(self, kilograms):
-    self.kilograms = float(kilograms)
+  def __init__(self, kg):
+    self._kg = float(kg)
   #
   def __str__(self):
-    return "{0} kg".format(self.kilograms)
+    return "{:} kg".format(self._kg)
 
 
 class Energy():
